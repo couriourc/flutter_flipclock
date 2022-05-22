@@ -13,7 +13,7 @@ Widget filpClockApp() {
   // E Setup Config
 
   return GetMaterialApp(
-    home: const HomeDetailPage(),
+    home: const LoginPage(),
     translations: LocaleLangMap(),
     locale: ui.window.locale,
     fallbackLocale: const Locale("en", "US"),
